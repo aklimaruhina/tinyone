@@ -1,6 +1,5 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width:575.99px) {
-	body{background: blue}
     .navbar .navbar-nav .nav-item .nav-link{
 	    font-size: 20px;
 	    padding: 10px 0 0;

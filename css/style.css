@@ -119,7 +119,11 @@ footer{
 }
 .btn-yellow{
   background: #fcdb00;
-
+}
+.subscribe-form .btn:hover{
+    background: transparent;
+    border: 1px solid #fcdb00;
+    color: #fff;
 }
 .social-btn{
 

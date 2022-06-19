@@ -5,6 +5,6 @@ This is to testing my psd skill
 
 ![alt text][screenshot]
 
-[screenshot]: (https://github.com/aklimaruhina/tinyone/blob/main/images/tinyone.jpeg) "Tinyone theme"
+[screenshot]: https://github.com/aklimaruhina/tinyone/blob/main/images/tinyone.jpeg "Tinyone theme"
 
 

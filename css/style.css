@@ -14,6 +14,8 @@ body {
 
   font-size: 16px;
   font-weight: 400;
+  color: #898989;
+  padding-top: 109px;
 }
 ul{margin-left: 0;padding-left: 0}
 ul li{list-style: none;}
@@ -26,19 +28,24 @@ html{
     overflow-x: hidden;
 }
 header{padding: 20px 0;}
+section{
+  padding-top: 116px;padding-bottom: 120px;
+}
 header, .slider{
     background: #fcdb00;
 }
+.slider{padding-top: 0}
 .navbar .navbar-nav .nav-item .nav-link{
     color: #010101;
     font-size: 22px;
     font-weight: 700;
-    padding: 0 50px;
+    padding: 0 30px;
+    text-transform: capitalize;
 }
 .navbar .navbar-nav .nav-item:last-child .nav-link{
   padding-right: 0;
 }
-.navbar .navbar-nav .nav-item:last-child .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover{
   color: #fff;
 }
 .slider{padding-bottom: 100px;}
@@ -57,9 +64,9 @@ header, .slider{
 }
 .icon-box ul li{margin-right: 30px;}
 .icon-box ul li i{
-  font-size: 42px;color: #010101;transition: .3s;
+  font-size: 42px;color: #010101;transition: .5s;
 }
-.icon-box ul li i:hover{transform: scale(.8);}
+.icon-box ul li i:hover{transform: scaleY(.6);}
 .carousel-indicators{bottom: -80px;}
 .carousel-indicators [data-bs-target]{
   width: 15px;height: 15px;border-radius: 50%;
@@ -72,17 +79,21 @@ header, .slider{
 .feature-container .title{margin-bottom: 15px;font-size: 32px;color: #010101;font-weight: 700}
 .feature-container p{font-size: 20px;color: #313841;line-height: 28px;}
 
-.featur-box{margin-bottom: 50px;color: #010101}
+.featur-box{margin-bottom: 70px;color: #010101}
 .single-feature{margin-bottom: 40px;}
+.single-feature .f_icon{text-align: center;}
 .single-feature i{
+  margin-top: 2px;
   font-size: 50px;color: #010101;
+  transition: .3s;
 }
-.single-feature h4{font-size: 22px;margin-bottom: 5px;font-weight: 700}
-.single-feature p{font-size: 16px;color: #898989;padding-top: 0}
+.single-feature i:hover{transform: scale(.8);}
+.single-feature h4{font-size: 22px;margin-bottom: 10px;font-weight: 700;color: #010101}
+.single-feature p{padding-top: 0;letter-spacing: 1px;}
 
 footer{
   background: #010101;color: #fff;
-  padding-top: 80px;
+  padding-top: 116px;
   padding-bottom: 110px;
 }
 .footer-top .title{
@@ -96,6 +107,7 @@ footer{
 .subscribe-form .form-control{
   font-size: 16px;
   background: #fff;
+
   border-radius: 5px;
   padding-left: 15px 20px;
   height: 55px;
@@ -103,9 +115,11 @@ footer{
 }
 .subscribe-form .btn{
   height: 50px;text-transform: uppercase;width: 100%;
+  font-weight: 700;color: #010101;
 }
 .btn-yellow{
-  background: #fcdb00
+  background: #fcdb00;
+
 }
 .social-btn{
 
